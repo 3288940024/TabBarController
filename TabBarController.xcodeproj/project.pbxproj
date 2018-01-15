@@ -15,6 +15,9 @@
 		CF81476F200C39E80057A527 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81476E200C39E80057A527 /* main.m */; };
 		CF814779200C39E80057A527 /* TabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF814778200C39E80057A527 /* TabBarControllerTests.m */; };
 		CF814784200C39E80057A527 /* TabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF814783200C39E80057A527 /* TabBarControllerUITests.m */; };
+		CF814793200C3A560057A527 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF814792200C3A560057A527 /* TabBarViewController.m */; };
+		CF814796200C459F0057A527 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CF814795200C459F0057A527 /* TabBar.m */; };
+		CF814799200C461D0057A527 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF814798200C461D0057A527 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		CF81477F200C39E80057A527 /* TabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF814783200C39E80057A527 /* TabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerUITests.m; sourceTree = "<group>"; };
 		CF814785200C39E80057A527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF814791200C3A560057A527 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		CF814792200C3A560057A527 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		CF814794200C459F0057A527 /* TabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		CF814795200C459F0057A527 /* TabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		CF814797200C461D0057A527 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CF814798200C461D0057A527 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,12 @@
 		CF814753200C39E80057A527 = {
 			isa = PBXGroup;
 			children = (
+				CF814797200C461D0057A527 /* UIView+Extension.h */,
+				CF814798200C461D0057A527 /* UIView+Extension.m */,
+				CF814794200C459F0057A527 /* TabBar.h */,
+				CF814795200C459F0057A527 /* TabBar.m */,
+				CF814791200C3A560057A527 /* TabBarViewController.h */,
+				CF814792200C3A560057A527 /* TabBarViewController.m */,
 				CF81475E200C39E80057A527 /* TabBarController */,
 				CF814777200C39E80057A527 /* TabBarControllerTests */,
 				CF814782200C39E80057A527 /* TabBarControllerUITests */,
@@ -265,6 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF814799200C461D0057A527 /* UIView+Extension.m in Sources */,
+				CF814796200C459F0057A527 /* TabBar.m in Sources */,
+				CF814793200C3A560057A527 /* TabBarViewController.m in Sources */,
 				CF814764200C39E80057A527 /* ViewController.m in Sources */,
 				CF81476F200C39E80057A527 /* main.m in Sources */,
 				CF814761200C39E80057A527 /* AppDelegate.m in Sources */,
